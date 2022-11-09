@@ -1,0 +1,59 @@
+ *{
+    
+    margin: auto;
+ }
+ body{
+    margin-top: 60px;
+    text-align:center;
+    background-image: url(weatherbg.jpg);
+  }
+  
+  h1 {
+    padding-bottom: 0.5rem;
+  }
+  .heading{
+    color: rgb(252, 252, 252);
+  }
+  input[type=number] {
+    cursor: pointer;
+  }
+  
+  #input-celsius{
+    background-color: #52ddcfb4;
+    font-size: 2.5rem;
+  }
+  
+  #input-fahrenheit{
+    background-color: #16b9c5b1;
+    font-size: 2.5rem;
+  }
+  
+  #input-kelvin{
+    background-color: #429fd9af;
+    font-size: 2.5rem;
+  }
+  
+  .form-padding {
+    padding: 2rem 1rem;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #FFFFFF !important;
+  }
+  ::-moz-placeholder {
+    color: #FFFFFF !important;
+  }
+  :-ms-input-placeholder {
+    color: #FFFFFF !important;
+  }
+  :-moz-placeholder {
+    color: #FFFFFF !important;
+  }
+  
+  footer{
+    padding-top: 1.5rem;
+    font-size: 0.7rem;
+    line-height: 0.2rem;
+    text-align:center;
+  }
+  
